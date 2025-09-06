@@ -68,7 +68,7 @@ class SimpleCliTableRow:
 				formatter = self._cols_formatting
 
 			if formatter and (not isinstance(text, str) or not regex_match_cli_special_chars.match(text)):
-				text = formatter(text)
+				text = formatter(text, i)
 
 			text = f"{text}"
 
