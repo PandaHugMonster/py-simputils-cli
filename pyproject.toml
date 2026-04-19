@@ -1,10 +1,10 @@
 [project]
-name = "simputils-config"
+name = "simputils-cli"
 dynamic = ["version"]
 authors = [
   { name="Ivan Ponomarev", email="i.ponomarev@pandev.tech" },
 ]
-description = "Simple Configs Manager"
+description = "Simple CLI functionality"
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
@@ -19,7 +19,7 @@ dependencies = [
     "typing-extensions"
 ]
 license = {file = "LICENSE"}
-keywords = ["simputils", "config", "files", "utils", "framework", "simple"]
+keywords = ["simputils", "cli", "utils", "framework", "simple"]
 
 [build-system]
 requires = [
@@ -46,5 +46,5 @@ pydantic = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/PandaHugMonster/py-simputils-config"
-Issues = "https://github.com/PandaHugMonster/py-simputils-config/issues"
+Homepage = "https://github.com/PandaHugMonster/py-simputils-cli"
+Issues = "https://github.com/PandaHugMonster/py-simputils-cli/issues"
